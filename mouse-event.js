@@ -10,9 +10,11 @@ ball.onmousedown = function(e){
     document.onmousemove = function (e){
         var _left = e.clientX - grapX;
         var _top = e.clientY - grapY;
+        ball.style.transform = 'translate(0%,0%)';
         ball.style.left = _left + 'px';
         ball.style.top = _top + 'px';
         arr.push({left:_left, top:_top});
+        
     }
     ball.onmouseup = function (){
         document.onmousemove = null

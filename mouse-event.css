@@ -5,6 +5,11 @@
     border-radius:50%;
     background:yellow;
     position:absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     -webkit-box-shadow: 0 8px 15px #f3f3228f;
     box-shadow: 0 8px 15px #f3f3228f;
     cursor: -webkit-grab;
